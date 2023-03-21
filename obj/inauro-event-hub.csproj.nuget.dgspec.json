@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/nickward/code/inauro-event-hub/inauro-event-hub.csproj": {}
+  },
+  "projects": {
+    "/home/nickward/code/inauro-event-hub/inauro-event-hub.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nickward/code/inauro-event-hub/inauro-event-hub.csproj",
+        "projectName": "inauro-event-hub",
+        "projectPath": "/home/nickward/code/inauro-event-hub/inauro-event-hub.csproj",
+        "packagesPath": "/home/nickward/.nuget/packages/",
+        "outputPath": "/home/nickward/code/inauro-event-hub/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nickward/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.Messaging.EventHubs": {
+              "target": "Package",
+              "version": "[5.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.407/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
